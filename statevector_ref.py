@@ -2,7 +2,8 @@ import numpy as np
 from typing import List, Optional
 from .circuit import Circuit, gate_unitary, gate_unitary_2q
 
-
+#why did the chicken cross the road?
+#to get to the other side!
 class StatevectorSim:
     def __init__(self, n: int, rng: Optional[np.random.Generator] = None):
         if n > 24:
