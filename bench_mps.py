@@ -1,10 +1,11 @@
+#guys im trying to keep it clean and stufff 
 import sys, os, time
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import numpy as np
 from qsim.mps import MPS
 from qsim.circuit import Circuit, gate_unitary, gate_unitary_2q
 
-
+#and also blehhhhhh
 def build_brickwork_circuit(n, layers, seed):
     rng = np.random.default_rng(seed)
     c = Circuit(n)
