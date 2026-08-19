@@ -1,7 +1,7 @@
 import numpy as np
 from typing import List, Optional, Tuple
 from .circuit import Circuit, gate_unitary, gate_unitary_2q
-
+#do you guys love this kind of my style 
 
 class MPS:
     def __init__(self, n: int, chi_max: int = 64, svd_cutoff: float = 1e-10,
@@ -57,7 +57,7 @@ class MPS:
         q_at_pos, q_at_pos1 = self.pos_to_qubit[pos], self.pos_to_qubit[pos + 1]
         self.pos_to_qubit[pos], self.pos_to_qubit[pos + 1] = q_at_pos1, q_at_pos
         self.order[q_at_pos], self.order[q_at_pos1] = pos + 1, pos
-
+#i luv irrelevant comments bleh what the helly welly banana jelly
     def apply_2q(self, gate4: np.ndarray, logical_a: int, logical_b: int):
         pos_a = self.order[logical_a]
         pos_b = self.order[logical_b]
