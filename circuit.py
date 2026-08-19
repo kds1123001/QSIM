@@ -4,7 +4,7 @@ import numpy as np
 CLIFFORD_1Q = {"H", "S", "SDG", "X", "Y", "Z", "I"}
 CLIFFORD_2Q = {"CNOT", "CZ", "SWAP"}
 NONCLIFFORD_1Q = {"T", "TDG", "RX", "RY", "RZ", "U1", "U3"}
-
+#sorry my people if this kind thing is not readable for all of you chuds
 class Gate:
     def __init__(self, name: str, qubits: Tuple[int, ...], params: Tuple[float, ...] = ()):
         self.name = name
