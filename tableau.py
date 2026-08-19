@@ -2,7 +2,7 @@ import numpy as np
 from typing import Optional, Tuple, List
 from .circuit import Circuit
 
-
+#no comment here lol bleh 
 def _g(x1, z1, x2, z2):
     if x1 == 0 and z1 == 0:
         return 0
