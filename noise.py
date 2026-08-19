@@ -3,7 +3,7 @@ from typing import List, Tuple, Optional
 from .tableau import StabilizerTableau
 from .mps import MPS
 from .circuit import gate_unitary
-
+#comment 
 
 def pauli_channel_apply(tab: StabilizerTableau, q: int, p_x: float, p_y: float, p_z: float,
                          rng: Optional[np.random.Generator] = None):
