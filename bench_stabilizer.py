@@ -3,6 +3,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import numpy as np
 from qsim.tableau import StabilizerTableau
 from qsim.circuit import Gate
+#as you guys know this is kind of my first sewious quantum computing project lolcat
 
 CLIFFORD_1Q = ["H", "S", "X", "Y", "Z"]
 
